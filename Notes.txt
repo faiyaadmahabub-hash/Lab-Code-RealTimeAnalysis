@@ -1,0 +1,9 @@
+Making Cargo Project:
+-cd (change directory)
+-in terminal write  “cargo new lab_project”
+-Later write  “cargo run” in terminal
+
+Adding Dependencies:
+-in terminal write “cargo add ferris-says”
+- then type “cargo build”
+
