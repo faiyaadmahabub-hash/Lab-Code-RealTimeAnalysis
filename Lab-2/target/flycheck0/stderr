@@ -1,0 +1,58 @@
+   0.094254900s  INFO prepare_target{force=false package_id=Lab-2 v0.1.0 (C:\Asia Pacific University\All Module Notes\Semister-5\Real Time Analysis\Lab-Code-RealTimeAnalysis\Lab-2) target="Lab-2"}: cargo::core::compiler::fingerprint: fingerprint error for Lab-2 v0.1.0 (C:\Asia Pacific University\All Module Notes\Semister-5\Real Time Analysis\Lab-Code-RealTimeAnalysis\Lab-2)/Check { test: false }/TargetInner { name: "Lab-2", doc: true, ..: with_path("C:\\Asia Pacific University\\All Module Notes\\Semister-5\\Real Time Analysis\\Lab-Code-RealTimeAnalysis\\Lab-2\\src\\main.rs", Edition2024) }
+   0.094427900s  INFO prepare_target{force=false package_id=Lab-2 v0.1.0 (C:\Asia Pacific University\All Module Notes\Semister-5\Real Time Analysis\Lab-Code-RealTimeAnalysis\Lab-2) target="Lab-2"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Asia Pacific University\All Module Notes\Semister-5\Real Time Analysis\Lab-Code-RealTimeAnalysis\Lab-2\target\debug\.fingerprint\Lab-2-04c7cbc8c431cd92\bin-Lab-2`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.146093800s  INFO prepare_target{force=false package_id=Lab-2 v0.1.0 (C:\Asia Pacific University\All Module Notes\Semister-5\Real Time Analysis\Lab-Code-RealTimeAnalysis\Lab-2) target="Lab-2"}: cargo::core::compiler::fingerprint: fingerprint error for Lab-2 v0.1.0 (C:\Asia Pacific University\All Module Notes\Semister-5\Real Time Analysis\Lab-Code-RealTimeAnalysis\Lab-2)/Check { test: true }/TargetInner { name: "Lab-2", doc: true, ..: with_path("C:\\Asia Pacific University\\All Module Notes\\Semister-5\\Real Time Analysis\\Lab-Code-RealTimeAnalysis\\Lab-2\\src\\main.rs", Edition2024) }
+   0.146167600s  INFO prepare_target{force=false package_id=Lab-2 v0.1.0 (C:\Asia Pacific University\All Module Notes\Semister-5\Real Time Analysis\Lab-Code-RealTimeAnalysis\Lab-2) target="Lab-2"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Asia Pacific University\All Module Notes\Semister-5\Real Time Analysis\Lab-Code-RealTimeAnalysis\Lab-2\target\debug\.fingerprint\Lab-2-38ae3ecec8323cef\test-bin-Lab-2`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking Lab-2 v0.1.0 (C:\Asia Pacific University\All Module Notes\Semister-5\Real Time Analysis\Lab-Code-RealTimeAnalysis\Lab-2)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.06s
