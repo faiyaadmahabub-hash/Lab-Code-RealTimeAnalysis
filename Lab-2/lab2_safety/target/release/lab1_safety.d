@@ -1,0 +1,1 @@
+C:\Asia\ Pacific\ University\All\ Module\ Notes\Semister-5\Real\ Time\ Analysis\Lab-Code-RealTimeAnalysis\Lab-2\lab2_safety\target\release\lab1_safety.exe: C:\Asia\ Pacific\ University\All\ Module\ Notes\Semister-5\Real\ Time\ Analysis\Lab-Code-RealTimeAnalysis\Lab-2\lab2_safety\src\main.rs
