@@ -1,0 +1,12 @@
+[package]
+name = "lab5_costs"
+version = "0.1.0"
+edition = "2024"
+
+
+[dev-dependencies]
+criterion = "0.7"
+
+[[bench]]
+name = "cost_benchmark"
+harness = false
