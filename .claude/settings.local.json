@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \":*)",
+      "Bash(cargo build:*)",
+      "Bash(find 'c:/Asia Pacific University/All Module Notes/Semister-5/Real Time Analysis/Assignment' -type f \\\\\\(-name *.pdf -o -name *.docx -o -name *.doc \\\\\\))",
+      "Bash(python3 -c \":*)"
+    ]
+  }
+}
