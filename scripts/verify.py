@@ -19,7 +19,7 @@ def run(command, timeout=180, expected=0):
         # Keep the verification record short; compiler diagnostics remain visible.
         if len(lines) > 65:
             lines = lines[:45] + ['[middle compiler output omitted]'] + lines[-20:]
-        print(clean('\n'.join(lines)))
+        print(clean('\n'.join(line.rstrip() for line in lines)))
         print('Exit:', p.returncode, '| expected:', expected, flush=True)
         return p.returncode == expected
     except subprocess.TimeoutExpired as error:

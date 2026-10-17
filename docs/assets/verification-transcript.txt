@@ -55,7 +55,7 @@ Compiling testProject v0.1.0 (.\lab-1\testProject)
 error: expected item, found keyword `let`
    --> src\main.rs:191:5
     |
-191 |     let a = String::from("Hello"); 
+191 |     let a = String::from("Hello");
     |     ^^^
     |     |
     |     `let` cannot be used for global variables
@@ -129,7 +129,7 @@ warning: fields `x`, `y`, `z`, and `pad` are never read
    |
 35 | struct Particle{
    |        -------- fields in this struct
-36 |     x:f64, 
+36 |     x:f64,
    |     ^
 37 |     y:f64,
    |     ^
