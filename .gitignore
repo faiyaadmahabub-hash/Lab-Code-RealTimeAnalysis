@@ -1,0 +1,4 @@
+﻿**/target/
+*.exe
+*.pdb
+.claude/settings.local.json
